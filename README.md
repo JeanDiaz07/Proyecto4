@@ -11,3 +11,4 @@ es una plataforma de restaurant esl cual solo se dedica a solo carnes animales p
 - React js
 - Javascript
 - Css
+- Firebase
