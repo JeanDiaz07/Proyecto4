@@ -126,13 +126,22 @@ width: 100%;
   }
 
 .formularioR{
-
-
-
+width: 25%;
+height: auto;
+text-align: center;
 }
 .tabla{
-
-
-
+width: 40% ;
+height:auto ;
+text-align: center;
   
+}
+.Reserva{
+width: 100%;
+height: auto;
+display: flex;
+gap: 15%;
+padding: 10% 25% 5% 25%;
+
+
 }

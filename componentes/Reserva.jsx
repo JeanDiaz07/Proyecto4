@@ -1,8 +1,8 @@
 //import { CrearResrva } from "./ReservaCrud/CrearResrva";
 import { TablaDatos } from "./ReservaCrud/TablaDatos.jsx";
-import {Formulario} from "./Reserva/Formulario.jsx";
+import {Formulario} from "../Reserva/Formulario.jsx";
 
-import { Row } from "react-bootstrap";
+
 
 
 
@@ -10,10 +10,10 @@ export const Reserva = () => {
     return(
     <>
     
-    
-    
-    <div class="formularioR">
     <h2>Reservas</h2>
+    <div class="Reserva">
+    <div class="formularioR">
+
     
     <Formulario/>
 
@@ -30,7 +30,7 @@ export const Reserva = () => {
 
 
     </div>
-    
+    </div>
 
 
     
