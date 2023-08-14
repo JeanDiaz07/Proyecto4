@@ -1,6 +1,3 @@
-
-//import restr from '../imagenes/images.jpg';
-
 export const Inicio = () => {
 return(
 <>
@@ -9,35 +6,6 @@ return(
     <h2>Para amantes de las carnes</h2>
 
 <div>
-<Container>
-    <Row>
-        <Col xs={6} md={4}>
-        <Image src="holder.js/171x180" rounded />
-        </Col>
-        <Col xs={6} md={4}>
-        <Image src="holder.js/171x180" rounded />
-        </Col>
-        <Col xs={6} md={4}>
-        <Image src="holder.js/171x180" rounded />
-        </Col>
-
-
-    </Row><br />
-    <Row>
-        <Col xs={6} md={4}>
-        <Image src="holder.js/171x180" rounded />
-        </Col>
-        <Col xs={6} md={4}>
-        <Image src="holder.js/171x180" rounded />
-        </Col>
-        <Col xs={6} md={4}>
-        <Image src="holder.js/171x180" rounded />
-        </Col>
-
-
-    </Row>
-</Container>
-
 
 
 
@@ -53,8 +21,7 @@ return(
 
     <div>
     <h2>Historia</h2>
-    <Row>
-    <col>
+    
     <section>
     <p>
     Una experiencia única en Chile, mezcla de gastronomía y diseño, es la apuesta que trajo a Concepción el Meat Love, en donde sus visitantes pueden seleccionar exclusivos cortes desde la vitrina ubicada en el propio restaurante.
@@ -74,13 +41,11 @@ return(
 
     </p>
     </section>
-    </col>
-    <col>
+
     <section>
-    <image src={restr} alt="" srcset="" />
+    
     </section>
-    </col>
-    </Row>
+
 
     </div>
     
@@ -93,6 +58,6 @@ return(
 </>
 
 
-);
+)
 
-};
+}
