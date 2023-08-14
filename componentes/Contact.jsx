@@ -3,15 +3,25 @@ export const Contact = () => {
     <>
     <div>
     <h2>Contacto y ubicacion</h2>
-    
+    <div class="Contacto">
     <section>
         <h4>Contacto</h4>
 
         <a>Telefono: +56912345678</a><br />
         <a >Correo electronico: Love.Meat@gmail.com</a>
-        <h5>
+        
+        <h4>Ubicacion</h4>
+    <a> Direccion:Presidente Riesco #1234, LasCondes    </a> 
+
+
+
+    </section>
+    <section>
+
+
+        <h4>
             Horario
-        </h5>
+        </h4>
         <a >Lunes: 13:00 a 22:30  </a><br />
         <a >Martes: 13:00 a 22:30   </a><br />
         <a >Miercoles: 13:00 a 22:30  </a><br />
@@ -23,13 +33,9 @@ export const Contact = () => {
 
     </section>
     <section>
-        <h4>Ubicacion</h4>
-    <a> Direccion:Presidente Riesco #1234, LasCondes    </a> 
-
-
-
+        <h4>Lugar</h4>
     </section>
-
+    </div>
 
 
     </div>
