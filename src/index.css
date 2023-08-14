@@ -1,0 +1,138 @@
+
+
+@font-face {
+  font-family: 'Ice Wave';
+  src: url(../src/assets/Tipografia/ice-wave/icewave.ttf) format('truetype');
+font-style: normal;
+font-weight: normal;
+}
+
+
+
+header{
+  
+  width: 100%;
+  height: 400px;
+  text-align: center;
+background-image: url(assets/Imagenes/Restaur.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+margin-top: -5%;
+
+
+}
+header:before{
+
+  position: absolute;
+  content: "";
+  width: 100%;
+
+  left: 0%;
+  
+  background-color: white;
+  opacity: 0.4;
+  height: 400px;
+
+}
+header h1{
+
+font-family: 'Ice Wave';
+font-size: 110px;
+position: absolute;
+padding:5% 25% 10%  ;
+}
+
+body{
+  width: 100%;
+  height: auto;
+
+background-color: black;
+padding: 5% 0 5%;
+
+}
+body div h2{
+text-align: center;
+
+}
+
+body div div{
+  padding: 2rem;
+
+}
+
+body div p{
+width: 50%;
+
+}
+
+
+
+
+
+footer{
+width: 100%;
+height: auto;
+background-color: brown;
+margin-left: 0%;
+margin-top: 1%;
+
+}
+footer h3 {
+padding: 2rem;
+font-family: Ice Wave;
+font-size: 30px;
+}
+footer h3 img{
+width: 4%;
+height: auto;
+
+}
+
+
+nav div .link{
+color: brown;
+
+text-decoration: none;
+font-size: 20px;
+
+}
+
+
+
+.formulario{
+width: 100%;
+  height: auto;
+  
+
+
+  
+  }
+  .formulario form {
+
+    padding: 1% 42% 0 42%;
+    text-align: center;
+  
+  }
+  .formulario form input {
+
+    padding:2% ;
+  
+  }
+  .formulario form button {
+
+  margin-top: 2%;
+
+  }
+
+.formularioR{
+
+
+
+}
+.tabla{
+
+
+
+  
+}
